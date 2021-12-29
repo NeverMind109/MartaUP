@@ -13,4 +13,67 @@
         font-weight: 600;
         text-transform: uppercase;
     }
+    &-slider {
+        padding-top: 111px;
+        &__item {
+            &-content {
+                display: flex;
+                justify-content: space-between;
+            }
+            &-info {
+                max-width: 506px;
+                color: #FFFFFF;
+            }
+            &-image {
+                margin: 10px 82px 0 0;
+            }
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 60px;
+            margin-bottom: 10px;
+        }
+        &__description {
+            font-size: 24px;
+            line-height: 55px;
+            margin-bottom: 60px;
+        }
+        &__btn {
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #250F8A;
+            background-color: #FFCA00;
+            border-radius: 25px;
+            padding: 13px 39px;
+        }
+    }
+    &-dots {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        list-style: none;
+        button {
+            display: block;
+            border: none;
+            background-color: #fff;
+            opacity: 0.5;
+            font-size: 0;
+            padding: 0;
+            width: 7px;
+            height: 7px;
+            border-radius: 3.5px;
+            margin: 10px auto;
+            cursor: pointer;
+            outline: none;
+        }
+        .slick-active {
+            button {
+                width: 15px;
+                opacity: 1;
+            }
+        }
+    }
 }
+

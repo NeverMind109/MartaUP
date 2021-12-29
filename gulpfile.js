@@ -33,7 +33,7 @@ function cleanDist() {
 
 function libscss() {
   return src([
-    "node_modules/reset-css/sass/_reset.scss",
+    "node_modules/reset-css/reset.css",
     "node_modules/slick-carousel/slick/slick.css",
     "node_modules/slick-carousel/slick/slick-theme.css",
   ])
