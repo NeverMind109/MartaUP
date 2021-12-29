@@ -1,0 +1,16 @@
+.header {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 793px;
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+    }
+    &__btn {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}

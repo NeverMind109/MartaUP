@@ -1,0 +1,47 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menu {
+    &__list {
+        display: flex;
+    }
+    &__link {
+        font-weight: 600;  
+        color: #FFFFFF;
+        opacity: 0.5;
+        text-transform: uppercase;
+        transition: all 0.5s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+.menu__item + .menu__item {
+    padding-left: 50px;
+}
+.login {
+    margin-right: 44px;
+    color: #FFFFFF;
+}
+.sign-up {
+    color: #250F8A;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px 43px;
+}
