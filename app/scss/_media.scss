@@ -1,0 +1,228 @@
+@media (max-width: 1620px) {
+    .advantages {
+        background-image: none;
+    }
+}
+@media (max-width: 1201px) {
+    .specialised {
+        background-size: 60px;
+    }
+}
+@media (max-width: 1190px) {
+    .header {
+        &-slider {
+            padding-top: 25px;
+            &__item {
+                &-info {
+                    padding: 50px 0;
+                }
+                &-image {
+                    margin: 50px 20px 0 0;
+                }
+            }
+            &__image {
+                width: 80%;
+            }
+        }
+    }
+    .advantages {
+        &-box {
+            justify-content: space-around;
+            &__title {
+                padding: 38px 0 15px 20px;
+            }
+            &__textbox {
+                padding-left: 28px;
+            }
+            &__image-block {
+                text-align: center;
+            }
+        }
+        &__image {
+            width: 80%;
+        }
+    }
+}
+@media (max-width: 1080px) {
+    .specialised {
+        background-image: none;
+    }
+    .advantages {
+        &-box {
+            &__info {
+                padding-top: 10px;
+            }
+        }
+        &__image {
+            margin-top: 40px;
+            width: 70%;
+        }
+    }
+    .reviews {
+        &__items {
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 48%;
+            margin-bottom: 25px;
+        }
+    }
+}
+@media (max-width: 924px) {
+    .header {
+        &__top {
+            flex-wrap: wrap;
+        }
+        &__buttons {
+            text-align: right;
+            width: 100%;
+        }
+    }
+    .login {
+        margin-right: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .header {
+        &-slider {
+            &__item {
+                &-image {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 858px) {
+    .advantages {
+        padding-top: 0;
+        &-box {
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            &__info {
+                max-width: 100%;
+            }
+            &--right {
+                .advantages-box__info {
+                    order: 0;
+                }
+            }
+        }
+        &__image {
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 775px) {
+    .specialised {
+        padding: 20px 0 40px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__items {
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width: 686px) {
+    .reviews {
+        padding: 38px 0;
+        &__items {
+            display: block;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__inner {
+            display: block;
+            text-align: center;
+            padding: 20px 10px 17px;
+        }
+        &__menu {
+            margin-bottom: 10px;
+        }
+    }
+}
+@media (max-width: 570px) {
+    .menu {
+        &__list {
+            display: none;
+            position: absolute;
+            z-index: 5;
+            top: 120px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #1a50a8;
+        }
+        &__link {
+            display: inline-block;
+        }
+        &__btn {
+            display: block;
+        }
+    }
+    .menu__item + .menu__item {
+        padding-left: 0;
+    }
+    .header {
+        min-height: 580px;
+        &-slider {
+            &__item {
+                &-info {
+                    padding: 10px 30px 10px 0;
+                }
+            }
+            &__title {
+                font-size: 35px;
+                line-height: 45px;
+            }
+            &__description {
+                font-size: 20px;
+                line-height: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .specialised {
+        &__items {
+            display: block;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .advantages {
+        &-box {
+            &__title {
+                font-size: 30px;
+                line-height: 40px;
+                padding: 38px 0 15px 0;
+                text-align: center;
+            }
+            &__textbox {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 571px) {
+    .menu {
+        &__list {
+            display: flex;
+        }
+    }
+}

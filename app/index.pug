@@ -3,14 +3,14 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible" content="IE=edge")
-        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0")
         title MartaUP - Main Page
         link(rel="preconnect", href="https://fonts.googleapis.com")
         link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
         link(href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap", rel="stylesheet")
         link(rel="stylesheet" href="css/style.min.css")
     body
-        header.header(style={"background-image": "url('images/header-bg.jpg')"})
+        header.header
             .container
                 .header__top
                     .logo
@@ -19,6 +19,8 @@ html(lang="en")
                         a.logo__link(href="index.html")
                             img.logo__img(src="images/logo.svg", alt="Logo")
                     nav.menu
+                        .menu__btn
+                            span
                         ul.menu__list
                             li.menu__item
                                 a.menu__link(href="#") Home
@@ -72,7 +74,7 @@ html(lang="en")
                                 a.header-slider__btn(href="#")  Request a quote
                             .header-slider__item-image
                                 img.header-slider__image(src="images/header-slider.png", alt="Slider Image")
-        section.specialised(style={"background-image": "url('images/special-bg.svg')"})
+        section.specialised
             .container
                 h4.specialised__title.title We are specialised in
                 .specialised__items
@@ -88,7 +90,7 @@ html(lang="en")
                         img.specialised__item-img(src="images/special-3.svg", alt="Item Image")
                         h5.specialised__item-title App Development
                         span.specialised__item-text In hac habitasse platea dictumstmus adipiscing fermentum quam volutpat aliquam. Integer cilisis tristique.
-        section.advantages(style={"background-image": "url('images/advantage-bg.svg')"})
+        section.advantages
             .container
                 .advantages-box
                     .advantages-box__info(style={"background-image": "url('images/title-bg-1.svg')"})
@@ -113,7 +115,7 @@ html(lang="en")
                             p.advantages-box__text Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa
                     .advantages-box__image-block
                         img.advantages__image(src="images/advantage-3.png", alt="Advantage")
-        section.reviews(style={"background-image": "url('images/reviews-bg.jpg')"})
+        section.reviews
             .container
                 .title.reviews__title Don’t Just Take Our Words
                 .reviews__items
